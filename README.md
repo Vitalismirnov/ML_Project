@@ -7,15 +7,15 @@ To run API:
 set FLASK_APP=server.py
 python -m flask run
 ```
-You'll need server.py and **static** folder
-Plus, model output files:
-LR.pkl
-RF.pkl
-
-To have a look at the model:
-ML_Project.ipynb (Jupyter Notebook)
-data (wind speed and poer output dataset)
-
+You'll need **server.py** and **static** folder<br/>
+Plus, model output files:<br/>
+* LR.pkl
+* RF.pkl
+<br/>
+To have a look at the model:<br/>
+* ML_Project.ipynb (Jupyter Notebook)
+* data (wind speed and poer output dataset)
+<br/>
 Docker:
-Dockerfile
-requirements.txt
+* Dockerfile
+* requirements.txt
