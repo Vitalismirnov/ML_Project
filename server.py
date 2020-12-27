@@ -7,11 +7,11 @@ app=fl.Flask(__name__)
 
 #load index file
 @app.route('/')
-def indext():
+def index():
     return app.send_static_file('index.html')
 
     
-@app.route('/api/linear/<int:inp>')
+@app.route('/api/LM/<int:inp>')
 def linear(inp):
     Xpred=[[inp]]
     load_reg=pickle.load(open('LR.pkl', 'rb'))
@@ -19,7 +19,7 @@ def linear(inp):
     res=str(result[0])
     return res
    
-@app.route('/api/randomforest/<int:inp>')
+@app.route('/api/RF/<int:inp>')
 def randomforest(inp):
     Xpred=[[inp]]
     load_RF=pickle.load(open('RF.pkl', 'rb'))
@@ -27,5 +27,5 @@ def randomforest(inp):
     res=str(result[0])
     return res  
     
-
+#print(linear(20))
 
