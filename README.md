@@ -13,9 +13,9 @@ Plus, model output files:<br/>
 * RF.pkl
 <br/>
 To have a look at the model:<br/>
-- ML_Project.ipynb (Jupyter Notebook)
-- data (wind speed and poer output dataset)
-<br/>
-Docker:
-* Dockerfile
-* requirements.txt
+- ML_Project.ipynb (Jupyter Notebook)<br/>
+- data (wind speed and poer output dataset)<br/>
+<br/><br/>
+Docker:<br/>
+* Dockerfile<br/>
+* requirements.txt<br/>
